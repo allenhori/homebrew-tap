@@ -2,28 +2,28 @@
 class Dre < Formula
   desc "Declarative Reporting Engine: SQL in, formatted files out"
   homepage "https://github.com/get-dre/dre"
-  version "0.11.0"
+  version "0.11.1"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/get-dre/dre/releases/download/v0.11.0/dre-0.11.0-macos-aarch64.tar.gz"
-      sha256 "f5b5e44a3fa7d2d0d029eedebe574ce17e99529dec71ad51a99ac5b56e104ef0"
+      url "https://github.com/get-dre/dre/releases/download/v0.11.1/dre-0.11.1-macos-aarch64.tar.gz"
+      sha256 "a8aa288bb87ae951e401696f50c26d550aa060281ac70bdc8e5d07979fe125c3"
     end
     on_intel do
-      url "https://github.com/get-dre/dre/releases/download/v0.11.0/dre-0.11.0-macos-x86_64.tar.gz"
-      sha256 "ec2fc24b81b65d99dc920427e53f5d938e929376d1b01d9b21d8bf7c0a3c2275"
+      url "https://github.com/get-dre/dre/releases/download/v0.11.1/dre-0.11.1-macos-x86_64.tar.gz"
+      sha256 "3169def1ba3a8e9fbb7a07e93c2fccacfb3ba69dcba993e7fff8b1fd8c6c2af1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/get-dre/dre/releases/download/v0.11.0/dre-0.11.0-linux-aarch64.tar.gz"
-      sha256 "deb77340c7731dd9d2ce71e1c12d2aa4b5bac20f4b64210ac2233ac6126b8840"
+      url "https://github.com/get-dre/dre/releases/download/v0.11.1/dre-0.11.1-linux-aarch64.tar.gz"
+      sha256 "44d2443a519853f1db591a32354e2c00fb5eeb25b76d9bb517f6c9d69062b749"
     end
     on_intel do
-      url "https://github.com/get-dre/dre/releases/download/v0.11.0/dre-0.11.0-linux-x86_64.tar.gz"
-      sha256 "dbaa888070b0b92f897e36693b9900cc594fdca40f51d440a89cbe7f6b883ac8"
+      url "https://github.com/get-dre/dre/releases/download/v0.11.1/dre-0.11.1-linux-x86_64.tar.gz"
+      sha256 "542dc55575d1d6f858be17124c0932e88071c73bb6cff71b3443c62ac45b1ebc"
     end
   end
 
